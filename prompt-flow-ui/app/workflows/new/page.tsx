@@ -578,9 +578,9 @@ export const EditNodeModal = ({ show, node, onClose, onSave }: EditNodeModalProp
                                 className="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-48 p-2.5"
                             >
                                 <option selected>Choose a data source</option>
-                                <option value="postgres-ecb">PostgreSQL | ECB</option>
-                                <option value="oracle-esp">Oracle | ESP</option>
-                                <option value="mssql-ecb-staging">SQL Server | ECB Staging</option>
+                                <option value="postgres-ecb">PostgreSQL</option>
+                                <option value="oracle-esp">Oracle</option>
+                                <option value="mssql-ecb-staging">SQL Server</option>
                             </select>
                         </div>                    
                     <div className="mb-6 bg-gray-900 rounded h-[calc(100%-160px)]">
